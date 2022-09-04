@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Plus_02.png" />
+      
+        <title>GameJamPlus!</title>
+        <link rel="stylesheet" type="text/css" href="src/css/index.css">
+        <!-- Add additional CSS & JS files as necessary here -->
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <div id="root">
+            <div class="header">
+                <img src="src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Basic.png" class="logo" alt="logo" />
+                <h1>Bem vindo a GJ+ launch page!</h1>
+            
+                <p id="intro">
+                    Texto intro texto intro texto intro texto intro texto intro texto intro texto intro texto intro texto intro texto intro
+                    texto intro texto intro texto intro texto intro texto introtexto intro texto intro texto intro texto intro texto intro.
+                </p>
+            </div>
+
+
+           
+            
+            <div id="contato">
+                <a href="https://discord.gg/fqFhCmYF">Discord </a>
+                <p></p>
+                <a href="url">Instagram </a>
+                <p></p>
+                <a href="url">Whattsapp </a>
+            
+          
+                <p>
+                    Contato
+                    <p></p>
+                    gamejampluspet@gmail.com
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
