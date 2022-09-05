@@ -3,42 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Plus_02.png" />
+    <link rel="icon" href="./img/favicon.png" type="image/icon type">
 
-    <title>GameJamPlus!</title>
+    <title>GameJam+ Petrópolis!</title>
     <link rel="stylesheet" type="text/css" href="./src/css/index.css">
     <link rel="stylesheet" type="text/css" href="./src/css/gb.css">
+
+    <meta name="title" content="GameJam+ Petrópolis">
+    <meta name="description"
+        content="A GameJam+ é uma maratona mundial de desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos.">
+    <meta name="keywords"
+        content="GameJamPlus, GameJam+, games, desenvolvimento de jogos, Petrópolis, Região Serrana, Rio de Janeiro">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamejampluspetropolis.vercel.app/">
+    <meta property="og:title" content="GameJam+ Petrópolis">
+    <meta property="og:description"
+        content="A GameJam+ é uma maratona mundial de desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos.">
+    <meta property="og:image" content="./img/gjplus_metabanner.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gamejampluspetropolis.vercel.app/">
+    <meta property="twitter:title" content="GameJam+ Petrópolis">
+    <meta property="twitter:description"
+        content="A GameJam+ é uma maratona mundial de desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos.">
+    <meta property="twitter:image" content="./img/gjplus_metabanner.jpg">
 
 </head>
 
 <body>
-    <main id="root">
+    <main id="root" class="margem">
         <header class="header">
-            <img src="./src/img/gjplus_basic.png" class="logo" alt="logo da GJ+" />
+            <picture>
+                <source srcset="src/img/gjplus_basic.webp" type="image/webp" />
+                <source srcset="src/img/gjplus_basic.png" type="image/png" />
+                <img src="./src/img/gjplus_basic.png" class="logo" alt="logo da GJ+" />
+            </picture>
         </header>
 
 
         <article>
-            <h1>Bem-vindo à pagina do evento GJ+!</h1>
-            <p id="">
-                Se você tem paixão por criar jogos e curte desafios, venha passar um final de semana para criar um jogo
-                em 48 horas, junto com pessoas tão apaixonadas quanto você! A GameJamPlus é uma maratona mundial de
-                desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos, que acontecerá
-                de 14 a 16 de outubro de 2022. Os melhores jogos concorrerão a premiações, além de serem apresentados a
-                investidores da indústria de games!
-            </p>
+            <section>
+                <h1>Bem-vindo(a) à GJ+ Petrópolis</h1>
+                <p>
+                    Se você tem paixão por criar jogos e curte desafios, venha passar um final de semana para criar um
+                    jogo
+                    em 48 horas, junto com pessoas tão apaixonadas quanto você! A GameJamPlus é uma maratona mundial de
+                    desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos. Os melhores
+                    jogos concorrerão a premiações, além de serem apresentados a
+                    investidores da indústria de games!
+                </p>
+            </section>
+
+            <section>
+                <h2>Quando e onde será realizada?</h2>
+                <p>
+                    Nos dias 14, 15 e 16 de outubro. O evento é online.
+                </p>
+            </section>
+
+            <section>
+                <h3>Como participar?</h3>
+                <p>
+                    A participação é garantida com a compra de ingresso no site <a
+                        href="https://www.eventbrite.com.br/e/petropolis-regiao-serrana-gj-2223-tickets-405335498387"
+                        target="_blank">Eventbrite (aqui).</a>
+                </p>
+            </section>
+
+
+            <section id="como_funciona">
+                <h4>Como funciona?</h4>
+                <a class="glightbox" href="./src/img/como_funciona.jpg">
+                    <img src="./src/img/como_funciona.jpg" class="logo" alt="logo da GJ+" />
+                </a>
+            </section>
         </article>
 
-        <section class="imagens">
-            <ul>
-                <li><a data-gallery="imagens" class="glightbox" href="./src/img/como_funciona.jpg"><img
-                            src="./src/img/como_funciona.jpg"></a>
-                </li>
-                <li><a data-gallery="imagens" class="glightbox" href="./src/img/como_participar.jpg"><img
-                            src="./src/img/como_participar.jpg"></a></li>
-            </ul>
-
-        </section>
 
         <ul id="contato">
             <li><a href="https://discord.gg/fqFhCmYF"><img src="./src/img/discord.png"></a></li>
