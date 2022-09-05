@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Plus_02.png" />
-      
-        <title>GameJamPlus!</title>
-        <link rel="stylesheet" type="text/css" href="src/css/index.css">
-        <!-- Add additional CSS & JS files as necessary here -->
-    </head>
-    <body>
-        <!-- Add your site or application content here -->
-        <div id="root">
-            <div class="header">
-                <img src="src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Basic.png" class="logo" alt="logo" />
-                <h1>Bem vindo a GJ+ launch page!</h1>
-            
-                <p id="intro">
-                    Se você tem paixão por criar jogos e curte desafios, venha passar um final de semana para criar um jogo em 48 horas, junto com pessoas tão apaixonadas quanto você! A GameJamPlus é uma maratona mundial de desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos, que acontecerá de 14 a 16 de outubro de 2022. Os melhores jogos concorrerão a premiações, além de serem apresentados a investidores da indústria de games!
-                </p>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/assets/Artes e Estilo Criativo/Elements/PNG/GJ+_Plus_02.png" />
+
+    <title>GameJamPlus!</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/gb.css">
+
+</head>
+
+<body>
+    <main id="root">
+        <header class="header">
+            <img src="src/img/Gjplus_basic.png" class="logo" alt="logo da GJ+" />
+        </header>
 
 
-           
-            
-            <div id="contato">
-                <a href="https://discord.gg/fqFhCmYF">Discord </a>
-                <p></p>
-                <a href="url">Instagram </a>
-                <p></p>
-                <a href="url">Whattsapp </a>
-            
-          
-                <p>
-                    Contato
-                    <p></p>
-                    gamejampluspet@gmail.com
-                </p>
-            </div>
-        </div>
-    </body>
+        <article>
+            <h1>Bem-vindo à pagina do evento GJ+!</h1>
+            <p id="">
+                Se você tem paixão por criar jogos e curte desafios, venha passar um final de semana para criar um jogo
+                em 48 horas, junto com pessoas tão apaixonadas quanto você! A GameJamPlus é uma maratona mundial de
+                desenvolvimento de jogos construída por um movimento colaborativo e sem fins lucrativos, que acontecerá
+                de 14 a 16 de outubro de 2022. Os melhores jogos concorrerão a premiações, além de serem apresentados a
+                investidores da indústria de games!
+            </p>
+        </article>
+
+        <section class="imagens">
+            <ul>
+                <li><a data-gallery="imagens" class="glightbox" href="./src/img/como_funciona.jpg"><img
+                            src="./src/img/como_funciona.jpg"></a>
+                </li>
+                <li><a data-gallery="imagens" class="glightbox" href="./src/img/como_participar.jpg"><img
+                            src="./src/img/como_participar.jpg"></a></li>
+            </ul>
+
+        </section>
+
+        <ul id="contato">
+            <li><a href="https://discord.gg/fqFhCmYF"><img src="./src/img/discord.png"></a></li>
+            <li><a href="url"><img src="./src/img/instagram.png"></a></li>
+            <li><a href="url"><img src="./src/img/whatsapp.png"></a></li>
+            <li><a href="mailto:gamejampluspet@gmail.com"><img src="./src/img/email.png"></a></li>
+        </ul>
+    </main>
+
+    <script src="./src/js/gb.js"></script>
+    <script src="./src/js/gbs.js"></script>
+
+</body>
+
 </html>

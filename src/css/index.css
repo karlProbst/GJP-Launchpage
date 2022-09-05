@@ -1,35 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
   box-sizing: border-box;
-  
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('../assets/Artes\ e\ Estilo\ Criativo/Elements/PNG/GJ+_BG_15.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  height: 100%;
+  background-color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.25s ease-in-out;
 }
 
 #root {
-  margin:2px
+  background-image: url("../assets/Artes\ e\ Estilo\ Criativo/Elements/PNG/GJ+_BG_15.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.header {
+.header img {
+  max-width: 450px;
+}
+
+.header,
+#contato {
   text-align: center;
-  display: block;
-  margin: auto;
-  scale:60%;
-
-}
-
-#contato{
-  text-align: center;
-}
-h1 {
-  margin-top: 50px;
 }
 
 p {
-  font-size: 22px;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contato img {
+  filter: invert(1);
+  max-width: 64px;
+}
+
+.imagens ul {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.imagens img {
+  max-width: 350px;
+}
+
+@media (max-width: 768px) {
+  #root {
+    justify-content: flex-start;
+    padding: 10%;
+    text-align: center;
+  }
+  #root > * {
+    margin-bottom: 2rem;
+  }
 }
