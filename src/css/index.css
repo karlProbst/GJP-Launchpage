@@ -35,7 +35,7 @@ img:hover {
 }
 
 #root {
-  background-image: url("../assets/Artes\ e\ Estilo\ Criativo/Elements/PNG/GJ+_BG_15.png");
+  background-image: url("./src/assets/Artes\ e\ Estilo\ Criativo/Elements/PNG/GJ+_BG_15.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
