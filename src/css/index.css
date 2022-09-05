@@ -112,11 +112,13 @@ ul {
 
 @media screen and (orientation:portrait) {
   #root {
+    font-size: 35px;
+    gap: 6rem;
     justify-content: flex-start;
     text-align: justify;
   }
   .margem {
-    padding: 10%;
+    padding: 5%;
   }
 
   #como_funciona img {
