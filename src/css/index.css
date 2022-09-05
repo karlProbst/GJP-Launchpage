@@ -110,7 +110,7 @@ ul {
   max-width: 350px;
 }
 
-@media (max-width: 768px) {
+@media screen and (orientation:portrait) {
   #root {
     justify-content: flex-start;
     text-align: justify;
