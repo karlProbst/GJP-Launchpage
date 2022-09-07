@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --margem-cb: 2.5%;
+  --margem-ed: 20%;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
@@ -74,7 +79,7 @@ article > * {
 }
 
 .margem {
-  padding: 2.5% 20%;
+  padding: var(--margem-cb) var(--margem-ed);
 }
 
 .header img {
@@ -110,18 +115,17 @@ ul {
   max-width: 350px;
 }
 
-@media screen and (orientation:portrait) {
-  #root {
-    font-size: 35px;
-    gap: 6rem;
-    justify-content: flex-start;
-    text-align: justify;
+@media only screen and (max-width: 768px) {
+  :root {
+    --margem-cb: 7.5%;
+    --margem-ed: 7.5%;
   }
-  .margem {
-    padding: 5%;
+  #root {
+    justify-content: flex-start;
+    text-align: initial;
   }
 
   #como_funciona img {
-    max-width: 100%;
+    width: 100%;
   }
 }
